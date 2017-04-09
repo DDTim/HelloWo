@@ -116,13 +116,27 @@ public class Main {
         System.out.println(summ(3,4,5));*/
 // less 21        System.out.println(Circle.r());
 
+
+// less 22
+        Array a = new MyArray();
+        System.out.println(a.Add(3));
+        System.out.println(a.Add(4));
+        System.out.println(a.Add(5));
+        System.out.println(a.Add(6));
+        System.out.println(a.Add(33));
+        System.out.println(a.Get(3));
+
+        Array b = new Array_1();
+        System.out.println(b.Add(3));
+        System.out.println(b.Add(4));
+        System.out.println(b.Add(5));
+        System.out.println(b.Add(6));
+        System.out.println(b.Get(4));
     }
-/*  public static int summ(int a, int b){
+    /*  public static int summ(int a, int b){
         return a + b;
     }
     public static int summ(int a, int b, int c){
         return a + b + c;
     }*/
-
-
 }
